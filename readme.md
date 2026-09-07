@@ -106,7 +106,7 @@ without touching the loom.
 | Tyre pressures | `0x385` | bytes 2–5 ÷ 4 = psi, in the order RR, FR, RL, FL |
 | Engine RPM | `0x180` | bytes 0:1 big-endian ÷ 8 |
 | Oil temperature | `0x580` | byte 4 − 50 = °C |
-| Coolant temperature | `0x551` | byte 0 × 1.25 − 69 = °C |
+| Coolant temperature | `0x551` | byte 0 − 40 = °C |
 | Road speed | `0x355` | bytes 0:1 big-endian |
 | Gear | `0x421` | 0x80 = 1st, +8 per gear |
 | Throttle | `0x182` | byte 4 = % |
